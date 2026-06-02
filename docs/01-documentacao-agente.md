@@ -3,36 +3,36 @@
 ## Caso de Uso
 
 ### Problema
-> Qual problema financeiro seu agente resolve?
+> 
 
-[Sua descrição aqui]
+[Assistente virtual capaz de analisar e coletar informações através de arquivos soltos montando uma base de conhecimento para responder dúvidas do usuário.]
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+[Assistente virtual para consulta e análise de dados financeiros, tirando dúvidas do usuário a partir de conhecimento adquirido na base fornecida.]
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+[Qualquer usuário que possua dificuldade de análise de dados soltos.]
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+[Duda]
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+[Agente consultivo responde somente assuntos referentes a base de conhecimento.]
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+[Responde através de linguagem objetiva formal.]
 
 ### Exemplos de Linguagem
 - Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]

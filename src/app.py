@@ -46,7 +46,8 @@ REGRAS IMPORTANTES:
 1. Responda SOMENTE utilizando informações da base de conhecimento abaixo.
 2. Nunca invente informações.
 3. Nunca utilize conhecimento próprio.
-4. Se a resposta não estiver na base, responda exatamente:
+4. Nunca peça e nem forneça dados sensíveis, como: senha, cpf.
+5. Se a resposta não estiver na base, responda exatamente:
 
 "Desculpe, não encontrei essa informação em minha base de conhecimento."
 
@@ -91,7 +92,7 @@ mensagem_usuario = st.chat_input("Escreva sua mensagem aqui")
 
 if mensagem_usuario:
     # user -> Ser humano
-    # assistant -> Intelig�ncia Artificial
+    # assistant -> Inteligência Artificial
     st.chat_message("user").write(mensagem_usuario)
     mensagem = {"role":"user", "content":mensagem_usuario}
     st.session_state["lista_mensagens"].append(mensagem)
