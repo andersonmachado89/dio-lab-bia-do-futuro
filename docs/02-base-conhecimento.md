@@ -20,7 +20,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+[Sim, os arquivos foram povoados com mais informações a fim de enriquecer a base de conhecimento do agente.]
 
 ---
 
@@ -29,12 +29,12 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+[Os JSON/CSV são carregados no início da sessão através de funções python onde são tratados e são incluídos no contexto do prompt]
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+[Os dados são injetados no prompt através de uma F-String, depois de definidas as regras de prompt do agente.]
 
 ---
 
@@ -43,13 +43,22 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 > Mostre um exemplo de como os dados são formatados para o agente.
 
 ```
-Dados do Cliente:
-- Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
+"nome": "João Silva",
+"idade": 32,
+"profissao": "Analista de Sistemas",
+"renda_mensal": 5000.0,
+"perfil_investidor": "moderado",
 
-Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
-...
+{
+"nome": "Tesouro Selic",
+"categoria": "renda_fixa",
+"risco": "baixo",
+"rentabilidade": "100% da Selic",
+"aporte_minimo": 30.0,
+"indicado_para": "Reserva de emergência e iniciantes"
+},
+
+2025-09-15     chat                   CDB                      Cliente perguntou sobre rentabilidade e prazos       sim
+2025-09-22 telefone       Problema no app                            Erro ao visualizar extrato foi corrigido       sim
+2025-10-01     chat         Tesouro Selic    Cliente pediu explicação sobre o funcionamento do Tesouro Direto       sim
 ```

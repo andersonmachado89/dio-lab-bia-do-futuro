@@ -38,5 +38,13 @@
     "rentabilidade": "Variável",
     "aporte_minimo": 100.00,
     "indicado_para": "Perfil arrojado com foco no longo prazo"
+  },
+  {
+    "nome": "Fundo de Imobiliário",
+    "categoria": "fundo",
+    "risco": "alto",
+    "rentabilidade": "6% a 12% anual",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Perfil arrojado com foco no longo prazo"
   }
 ]

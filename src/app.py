@@ -55,7 +55,7 @@ BASE DE CONHECIMENTO:
 
 {base_conhecimento}
 """
-
+print(base_conhecimento)
 # Oculte a barra de código
 st.markdown("""
     <style>
@@ -82,7 +82,7 @@ if "lista_mensagens" not in st.session_state:
         }
     ]
 
-#Exibir o hist�rico de mensagens
+#Exibir o histórico de mensagens
 for msg in st.session_state["lista_mensagens"]:
     chave = msg["role"]
     texto = msg["content"] 

@@ -5,7 +5,7 @@
 ### Problema
 > 
 
-[Assistente virtual capaz de analisar e coletar informações através de arquivos soltos montando uma base de conhecimento para responder dúvidas do usuário.]
+[Assistente virtual capaz de analisar e coletar informações através de arquivos com informações financeiras montando uma base de conhecimento para responder dúvidas do usuário.]
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
@@ -15,7 +15,7 @@
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Qualquer usuário que possua dificuldade de análise de dados soltos.]
+[Qualquer usuário que possua dificuldade de análise de dados financeiros e precise de assistência.]
 
 ---
 
@@ -27,7 +27,7 @@
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Agente consultivo responde somente assuntos referentes a base de conhecimento.]
+[Agente consultivo e educativo, responde somente assuntos referentes a base de conhecimento.]
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
@@ -59,10 +59,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Chatbot em Streamlit] |
+| LLM | [GPT-4 via API] |
+| Base de Conhecimento | [JSON/CSV com dados do cliente] |
+| Validação | [Checagem de alucinações] |
 
 ---
 
@@ -70,12 +70,12 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
+- [x] [ex: Agente só responde com base nos dados fornecidos]
 - [ ] [ex: Respostas incluem fonte da informação]
 - [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] [ex: Não faz recomendações de investimento sem perfil do cliente]
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+[O agente não coleta e não responde sobre dados sensíveis, o agente não responde perguntas fora do contexto financeiro e não utiliza conhecimento próprio]
